@@ -18,6 +18,11 @@ function login() {
         box.style.animation = "none";
         void box.offsetWidth;  // 애니메이션 초기화
         box.style.animation = "bounce 0.5s";
+
+        //메인화면으로 넘어가기 
+        setTimeout(() => {
+            window.location.href = "main.html";
+        }, 1000);
     } else {
         message.style.color = "red";
         message.textContent = "아이디 또는 비밀번호가 틀렸습니다.";
