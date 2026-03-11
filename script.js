@@ -10,7 +10,7 @@ function login() {
     const box = document.querySelector(".login-container");
 
     // 4️⃣ 조건 확인
-    if (id === "admin" && pw === "1234") {
+    if (id === "asdf" && pw === "1234") {
         message.style.color = "green";
         message.textContent = "로그인 성공!";
 
