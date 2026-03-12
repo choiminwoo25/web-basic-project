@@ -13,11 +13,11 @@ body {
 /* 로그인 박스 */
 .login-container {
     background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    width: 320px;
-    text-align: center;
+    padding: 30px;     /*모든방향 30픽셀 여백을 줌*/
+    border-radius: 15px;   /*모서리 15픽셀  반지름 둥글게*/
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /*수평,수직,그림자반경,색상*/
+    width: 320px;  /*가로길이 320*/
+    text-align: center; /*가운데 정렬*/
 
     /* 등장 애니메이션 */
     animation: fadeIn 0.8s ease forwards;

@@ -2,6 +2,7 @@ function login() {
     // 1️⃣ 입력값 가져오기
     const id = document.getElementById("username").value;
     const pw = document.getElementById("password").value;
+    localStorage.setItem('id',id)
 
     // 2️⃣ 메시지 영역 가져오기
     const message = document.getElementById("message");
